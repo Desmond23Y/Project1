@@ -13,7 +13,7 @@
     font-size: 17px;
 }
 
-.navbarR {
+.navbar .navbarR a {
     float: right;
     text-align: center;
     padding: 12px;
@@ -31,8 +31,9 @@
 }
 
 @media screen and (max-width: 500px) {
-    .navbar a {
+    .navbar a, .navbar .navbarR a {
         float: none;
         display: block;
+        text-align: left;
     }
 }
